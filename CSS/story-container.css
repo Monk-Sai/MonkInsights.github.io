@@ -1,0 +1,70 @@
+ .story-container {
+  font: 16px/1.1 serif;
+  font-weight: 500;
+  background-color: rgb(55, 156, 244);
+  color: firebrick;
+  align-items: center;
+ }
+
+ .button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .div-frame {
+    padding: 45px 24px;
+  }
+
+  .div-layer {
+    position: relative;
+    height: 300px;
+  }
+  
+  h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 180, 41);
+    padding-top: 425px;
+    font-size: xx-large;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  @media (max-width: 500px) {
+    h1 {
+      padding-top: 525px;
+    }
+  }
+  h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(23, 0, 138);
+    font-size: larger;
+    padding-top: 450px;
+    padding-left: 25px;
+    padding-right: 25px;
+    word-spacing: 0.15cm;
+  }
+  @media (max-width: 500px) {
+    h2 {
+      padding-top: 550px;
+    }
+  }  
+  p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: beige;
+    font-size: inherit;
+    text-align: left;
+    padding: 480px 20px 10px 20px;
+    word-spacing: 0.08cm;
+  }
+  @media (max-width: 500px) {
+    p {
+      padding-top: 600px;
+    }
+  }
+  amp-img {
+    opacity: 100%;
+    size: 120%;
+  }

@@ -1,0 +1,150 @@
+
+    /* Add styles for the header container */
+    .header {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: larger;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+      }
+      /* Add styles for the logo */
+      .logo {
+        font-size: 1.5em;
+      }
+  
+      /* Add styles for the navigation menu */
+      .nav {
+        display: flex;
+      }
+      .nav ul {
+        list-style: square;
+        margin: 5;
+        padding: 0;
+        display: flex;
+      }
+      .nav li {
+        margin-right: 25px;
+      }
+      .nav a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+      }
+      /* Add media query for small screens */
+      @media (max-width: 600px) {
+        /* change font size and hide some elements on small screens */
+        .logo {
+          font-size: 50px;
+        }
+        .nav li:nth-child(3) {
+          display: grid;
+        }
+      }
+       /* Add styles for the footer container */
+       .footer {
+        background-color: rgb(0, 0, 0);
+        color: rgb(245, 182, 64);
+        display: block;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 15px;
+      }
+
+      button {
+        background-color: rgb(255, 94, 0);
+        color: white;
+        padding: 10px 5px 5px 10px;
+        border-radius: 5px;
+        font-size: large;
+        cursor: pointer;
+      }
+
+      /* Add styles for the footer links */
+      .footer-a {
+        color: rgb(255, 255, 255);
+        text-decoration: rgb(235, 180, 77);
+        margin-right: 10px;
+        font-size: x-large;
+        padding: 5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        display: flex;
+        flex-direction: column;
+      }
+      .fit-to-screen {
+        width: 100%;
+        max-height: 550px;
+      }
+
+      .hero-container{
+        max-width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      body {
+        width: auto;
+        margin: 0% 0% 0% 0%;
+        background-color: #f5f5f5;
+        color: #333333;
+      }
+
+      .dark-mode {
+        background-color: #333333;
+        color: #f5f5f5;
+      }
+
+      .web-story-container {
+        height: 650px;
+        width: 100%;
+        margin: 0 0 0 0;
+        padding: 10px 0px 10px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+
+      .story {
+        width: 400px;
+        display: flex;
+      }
+      .story-1 {
+        width: 400px;
+        display: flex;
+      }
+
+      .web-story-container-1 {
+        height: 650px;
+        width: 100%;
+        margin: 2.5px 2.5px 2.5px 2.5px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 0;
+        padding-right: 0;
+      }
+      
+      .right-p-div {
+        background-color: darksalmon;
+        text-align: left;
+        margin: 5px 25px 5px 25px;
+      }
+      .context-head {
+        background-color: rgb(0, 0, 0);
+        background-size: 100%;
+        font-size: xx-large;
+        font-family: Georgia;
+        color: darkorange;
+        margin: 0px 0px 0px 0px;
+        display: flex;
+        -ms-flex-align: center;
+        flex-direction: column;
+        align-items: center;
+      }
+      .container {
+        background-color: #ffeacb;
+      }
